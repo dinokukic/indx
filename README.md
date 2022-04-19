@@ -6,7 +6,7 @@ First you will need to set up a [project on Google Cloud Platform](https://conso
 
 Once you do that, you will need to [create a service account](https://console.developers.google.com/iam-admin/serviceaccounts). Download the JSON key file from the service account and save it in the same directory as this repository and rename it to _key_file.json_
 
-To verify the ownership of the website, you will need to add the service account as a delegated owner in the Google Search Console.
+To verify the ownership of the website, you will need to add the service account as a delegated owner to the Google Search Console.
 
 ### Prerequisites
 - Python 3.* 
