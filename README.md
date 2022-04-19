@@ -20,11 +20,10 @@ If you already have Python 3.* installed, for the most part, running the followi
 
 In a nutshell, to use the script:
 
-positional arguments:
-  {i,r}       set if you want to index (i) or remove (r) URLs
-  {s,m}       set if you are submitting a single (s) (URL) or multiple (m)
-              URLs (CSV)
-  path        URL or path to csv file
+arguments: 
+- {i,r} - set if you want to index (i) or remove (r) URLs
+- {s,m} - set if you are submitting a single (s) (URL) or multiple (m) URLs (CSV)
+- path - URL or path to csv file
 
 
 ### Examples
