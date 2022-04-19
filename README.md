@@ -28,18 +28,18 @@ arguments:
 
 ### Examples
 
-***Index a single URL***
+**Index a single URL**
 
 ```python indx.py i s https://example.com/my-path```
 
-***Index multiple URLs***
+**Index multiple URLs**
 
 ```python indx.py i m myurllist.csv```
 
-***Remove a single URL from the index***
+**Remove a single URL from the index**
 
 ```python indx.py r s https://example.com/my-path```
 
-***Remove multiple URLs from the index***
+**Remove multiple URLs from the index**
 
 ```python indx.py r m myurllist.csv```
