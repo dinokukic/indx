@@ -65,9 +65,3 @@ else:
     print('URL: ' + url)
     print('STATUS: ' + str(response.status))
 
-
-
-
-
-
-# print('\n'.join(os.listdir(input_path)))
