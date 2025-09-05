@@ -50,7 +50,7 @@ if args.n == 'm':
       }'''
 
       response, content = http.request(ENDPOINT, method="POST", body=content)
-
+      print(content)  
       print("URL: " + url)
       print("STATUS: " + str(response.status))
 else:
@@ -61,7 +61,9 @@ else:
       }'''
 
     response, content = http.request(ENDPOINT, method="POST", body=content)
-
+    
+    print(content)
+    
     print('URL: ' + url)
     print('STATUS: ' + str(response.status))
 
